@@ -1,0 +1,31 @@
+body {
+    font-family: 'Libre Baskerville', sans-serif;
+    background-color: #B7E3E4;
+}
+.container {
+    font-family: 'Libre Baskerville', sans-serif;
+    padding: 20px 40px;
+    line-height: 28px;
+}
+
+p {
+    color: #536079;
+}
+
+h3 {
+    font-family: 'Libre Baskerville', serif;
+    color: #e54b4b;
+}
+h1 {
+    font-family: 'Libre Baskerville', serif;
+    color: #e54b4b;
+    text-transform: capitalize;
+    font-size: 32px;
+}
+.pullquote {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 24px;
+    font-style: italic;
+    width: 100%;
+    line-height: 48px;
+}

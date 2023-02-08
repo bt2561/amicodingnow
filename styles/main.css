@@ -1,8 +1,26 @@
+body {
+    background-color: #B7E3E4;
+    font-style: 'Libre Baskerville', sans-serif;
+}
+
+p{
+    color: #536079;
+    font-style: 'Libre Baskerville', sans-serif;
+    font-weight: 400px;
+}
+
 h3 {
-    color:blue;
+    color:#E86C2A;
+    font-style: 'Libre Baskerville', sans-serif;
+}
+
+h2 {
+    color: #e54b4b;
+    font-style: 'Libre Baskerville', sans-serif;
 }
 .bio {
     margin: 20px;
-    border: 4px solid blue;
+    border: 4px solid #424C9E;
     padding: 40px;
+    font-style: 'Libre Baskerville', sans-serif;
 }
