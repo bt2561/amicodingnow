@@ -19,13 +19,14 @@ main, header, footer {
 }
 
 img {
-    width: 500px;
+    width: 25%;
 }
 
 .flex-container{
     display: flex;
     flex-direction: column;
     height: 100%;
+    overflow: auto;
 }
 
 header, footer {
@@ -34,4 +35,18 @@ header, footer {
 
 main {
     flex: 1;
+    overflow: auto;
+    display: flex;
+}
+
+.column {
+    padding: 2opx;
+    height: 100%;
+    width: 50%;
+}
+
+@media (max-width: 450px) {
+    .flex-container{
+        background: orange;
+    }
 }
