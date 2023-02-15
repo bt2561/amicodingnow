@@ -1,0 +1,30 @@
+.container {
+    font-family: 'Libre Baskerville', sans-serif;
+    padding: 20px 40px;
+    line-height: 28px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: stretch;
+}
+
+nav {
+    height: 60px;
+  }
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    background: tomato;
+    line-height: 60px;
+  }
+  
+  li {
+    
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+ 

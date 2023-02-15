@@ -1,11 +1,56 @@
-body {
+.flex-container {
+    display: flex;
+    flex-direction: column;
     font-family: 'Libre Baskerville', sans-serif;
-    background-color: #B7E3E4;
+    padding: 20px 60px;
+    line-height: 28px;
 }
-.container {
+
+.column {
+    width: 50%;
+    height: 600px;
+  }
+    .left{
+    background: #B7E3E4;
+  }
+  .right{
+    background: #B7E3E4;
+  }
+
+ul.container {
     font-family: 'Libre Baskerville', sans-serif;
     padding: 20px 40px;
     line-height: 28px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+nav {
+    height: 60px;
+  }
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    background: tomato;
+    line-height: 60px;
+  }
+  
+  li {
+    
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+body {
+    font-family: 'Libre Baskerville', sans-serif;
+    background-color: #B7E3E4;
 }
 
 p {
