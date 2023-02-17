@@ -45,8 +45,21 @@ main {
     width: 50%;
 }
 
+@media (max-width: 600px) {
+    .flex-container {
+        background: green;
+    }
+}
 @media (max-width: 450px) {
     .flex-container{
         background: orange;
     }
+}
+
+main {
+    display: flex;
+}
+
+.column {
+    width: 100%;
 }
