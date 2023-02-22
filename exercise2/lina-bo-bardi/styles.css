@@ -10,6 +10,7 @@
     width: 50%;
     height: 1200px;
   }
+
     .left{
     background: #B7E3E4;
   }
@@ -37,10 +38,6 @@ nav {
     justify-content: space-around;
     background: tomato;
     line-height: 60px;
-  }
-  
-  li {
-    
   }
   
   a {
