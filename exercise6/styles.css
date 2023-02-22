@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Libre Baskerville', sans-serif;
+    background-color: #B7E3E4;
+    color: #536079;
+}
+
+nav {
+    height: 60px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    line-height: 60px;
+    background: tomato;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    padding: 0 40px;
+}
+li:hover {
+    animation: colors 5s;
+}
+
+@keyframes colors {
+    0% {background-color: tomato;
+    }
+    40% {background-color: #CC0000;
+    }
+    60% {background-color: #80000;
+    }
+    100% {background-color: tomato}
+}
