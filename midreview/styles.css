@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Libre Baskerville', sans-serif;
-    background-color: #B7E3E4;
+    background-color: #wheat;
     color: #536079;
 }
 
@@ -19,12 +19,12 @@ nav {
     justify-content: space-around;
     list-style-type: none;
     line-height: 60px;
-    background: tomato;
+    background: #B7E3E4;
 }
 
 a {
     text-decoration: none;
-    color: white;
+    color: #e54b4b;
 }
 
 li {
@@ -41,5 +41,6 @@ li:hover {
     }
     60% {background-color: #80000;
     }
-    100% {background-color: tomato}
+    100% {background-color: tomato;
+    }
 }
