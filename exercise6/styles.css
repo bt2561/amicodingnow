@@ -41,5 +41,5 @@ li:hover {
     }
     60% {background-color: #80000;
     }
-    100% {background-color: tomato}
+    100% {background-color: tomato;}
 }
