@@ -28,6 +28,10 @@ li:hover {
     animation: colors 2s ease-out;
 }
 
+li {
+    padding: 0 40px;
+}
+
 @keyframes colors {
     0% {background-color: tomato;
     }
