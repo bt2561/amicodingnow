@@ -52,18 +52,9 @@ li {
     color: #e54b4b
 }
 
-p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
 body {
     background: whitesmoke;
 }
-
-
 
 .firstrow {
     display: flex;
@@ -71,6 +62,15 @@ body {
     justify-content: space-between;
     padding-top: 20px;
     background: whitesmoke;
+    flex-wrap: wrap;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 img {
@@ -81,13 +81,66 @@ img {
 .image {
     width: 50%;
     padding-top: 10px;
+    padding-left: 150px;
+    padding-right: 80px; 
+}
+
+.caption {
+    padding-top: 10px;
+    padding-right: 100px;
     padding-left: 100px;
-    padding-right: 100px; 
+    font-size: 14px;
+    width: 50%;
+    text-align: center;
 }
 
 .image2 {
     width: 50%;
     padding-top: 10px;
+    padding-left: 80px;
+    padding-right: 100px;
+}
+
+.caption {
+    padding-top: 10px;
+    padding-right: 100px;
     padding-left: 50px;
+    font-size: 14px;
+    width: 50%;
+    text-align: center;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.secondrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+    background: whitesmoke;
+    flex-wrap: wrap;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.image3 {
+    width: 50%;
+    padding-top: 10px;
+    padding-left: 150px;
+    padding-right: 80px; 
+}
+
+.image4 {
+    width: 50%;
+    padding-top: 10px;
+    padding-left: 80px;
     padding-right: 100px;
 }
