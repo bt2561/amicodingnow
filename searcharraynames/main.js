@@ -66,7 +66,8 @@
   
   //---------- DISPLAY ONLY THE SPECIFIC NAME
   function displaySearched(names) {
-    console.log('search value:', names)
+    //    console.log('search value:', names[0])
+    clearList()
 
     //iterate over the searched names
     for(let i = 0; i < names.length; i++){
@@ -82,7 +83,7 @@
   //---------- CLEAR LIST BEFORE RENDERING SPECIFIC NAME
   function clearList() {}
   
-  //---------- CLEAR FROM WITH BUTTON
+  //---------- CLEAR FORM WITH BUTTON
   function clearSearchForm() {
     searchBar.reset()
   }
