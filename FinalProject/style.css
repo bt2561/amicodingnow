@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    /*   padding: 0; */
+  }
+  
+  html,
+  body {
+    height: 100vh;
+    width: 100%;
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+  }
+  
+  .filters,
+  .list {
+    /*   background-color: #f15b31; */
+    padding: 20px;
+    /*   display: flex; */
+    border: 2px solid #141414;
+    width: 100%;
+  }
+  
+  .list {
+    height: 80vh;
+  }
+  
+  .filter-btn {
+    color: white;
+    background-color: #f15b31;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    border: none;
+  }
+  
+  .filter-btn.active {
+    color: #536079;
+    border-color: #B7E3E4;
+    background: #B7E3E4;
+  }
+  
+  ul {
+    display: flex;
+    /*   flex-wrap: wrap; */
+    justify-content: space-between;
+  }
+  
+  li {
+    list-style-type: none;
+    border: 2px solid #141414;
+    padding: 10px;
+    margin: 10px;
+    width: 20%;
+  }
+  
+  li:hover {
+    background: #B7E3E4;
+  }
+  
+  ul .card.hide {
+    display: none;
+  }
+  
+  ul .card.show {
+    /* display: block; */
+    animation: fadeIn 0.5s ease;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  img {
+    width: 100%;
+    height: 150px;
+  }
