@@ -99,3 +99,4 @@ function filterFn(event) {
 filterBtns.addEventListener("click", filterFn);
 
 // END OF FILTERING
+
