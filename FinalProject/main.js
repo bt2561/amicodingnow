@@ -35,7 +35,7 @@ const flowers = [
 },
 {name: "Cylindirical Street Blocker",
   category: "transportation",
-  image: "https://github.com/bt2561/amicodingnow/blob/d735f9f6d79cfd41dfc70406de5b36da8b472faf/assets/cylindirical%20street%20blocker.glb"
+  image: "https://finfree-storage.s3.eu-central-1.amazonaws.com/misc/cylindirical+street+blocker.glb"
 },
 {name: "Slender Traffic Blocker",
   category: "transportation",
