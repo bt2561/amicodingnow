@@ -33,9 +33,9 @@ const flowers = [
   category: "sanitation",
   image: "https://files.cargocollective.com/c483709/WetSign-compressed-v2.glb"
 },
-{name: "Cylindirical Street Blocker",
+{name: "Cylindrical Street Blocker",
   category: "transportation",
-  image: "https://finfree-storage.s3.eu-central-1.amazonaws.com/misc/cylindirical+street+blocker.glb"
+  image: "../assets/cylindrical street blocker.glb"
 },
 {name: "Slender Traffic Blocker",
   category: "transportation",
