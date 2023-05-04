@@ -7,12 +7,12 @@ const flowers = [
     name: "MTA Bus Ticket Machine",
     category: "transportation",
     image:
-      "https://user-images.githubusercontent.com/123427703/231647127-2ecb835f-dbf0-4b64-885d-d0025e827381.jpg"
+      ""
   },
   {
     name: "LIRR Ticket Machine",
     category: "transportation",
-    image: "https://user-images.githubusercontent.com/123427703/231647497-f3114e9f-7a5f-4af2-9807-185382736cbe.jpg"
+    image: "https://files.cargocollective.com/c483709/LIRR.glb"
   },
   {
     name: "Traffic Sign",
@@ -20,7 +20,7 @@ const flowers = [
     image:"https://user-images.githubusercontent.com/123427703/231647714-b5acb425-56af-4778-8d25-96e2e29d9507.jpg"
   },
   {
-    name: "Barrier",
+    name: "Traffic Barrier",
     category: "construction",
     image:"https://user-images.githubusercontent.com/123427703/231647858-147dd964-a885-430d-975b-523d8c9a4dc4.jpg"
   },
@@ -31,7 +31,23 @@ const flowers = [
   },
   {name: "Wet Floor Sign",
   category: "sanitation",
-  image: "https://user-images.githubusercontent.com/123427703/231648742-3976c983-d9c8-469e-afd8-cb801dc5cd53.jpg"
+  image: "https://files.cargocollective.com/c483709/WetSign-compressed-v2.glb"
+},
+{name: "Cylindirical Street Blocker",
+  category: "transportation",
+  image: "https://github.com/bt2561/amicodingnow/blob/d735f9f6d79cfd41dfc70406de5b36da8b472faf/assets/cylindirical%20street%20blocker.glb"
+},
+{name: "Slender Traffic Blocker",
+  category: "transportation",
+  image: ""
+},
+{name: "Fire Hydrant",
+  category: "sanitation",
+  image: ""
+},
+{name: "citibike",
+  category: "transportation",
+  image: ""
 }
 ];
 
@@ -55,8 +71,10 @@ function renderFlowersToPage(results) {
     category.textContent = results[i].category
 
     // add flower image
-    let image = document.createElement('img')
+    let image = document.createElement('model-viewer')
     image.setAttribute('src', results[i].image)
+    image.setAttribute('auto-rotate', true)
+    image.setAttribute('rotation-per-second', '60deg')
 
     ul.appendChild(listItem)
     listItem.appendChild(title)
