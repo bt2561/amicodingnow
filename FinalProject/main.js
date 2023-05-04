@@ -7,7 +7,7 @@ const flowers = [
     name: "MTA Bus Ticket Machine",
     category: "transportation",
     image:
-      ""
+      "https://files.cargocollective.com/c1851482/mta-bus-ticket-machine.glb"
   },
   {
     name: "LIRR Ticket Machine",
@@ -15,19 +15,19 @@ const flowers = [
     image: "https://files.cargocollective.com/c483709/LIRR.glb"
   },
   {
-    name: "Traffic Sign",
+    name: "No Thru Traffic Sign",
     category: "transportation",
-    image:"https://user-images.githubusercontent.com/123427703/231647714-b5acb425-56af-4778-8d25-96e2e29d9507.jpg"
+    image:"https://files.cargocollective.com/c1851567/no-thru-traffic.glb"
   },
   {
     name: "Traffic Barrier",
     category: "construction",
-    image:"https://user-images.githubusercontent.com/123427703/231647858-147dd964-a885-430d-975b-523d8c9a4dc4.jpg"
+    image:"https://files.cargocollective.com/c1851482/traffic-barrier.glb"
   },
   {
     name: "Mailbox",
     category: "communication",
-    image: "https://user-images.githubusercontent.com/123427703/231648559-7ada4f5e-934a-4013-af05-c007b806097b.jpg"
+    image: "https://files.cargocollective.com/c1851567/mailbox.glb"
   },
   {name: "Wet Floor Sign",
   category: "sanitation",
@@ -35,19 +35,23 @@ const flowers = [
 },
 {name: "Cylindrical Street Blocker",
   category: "transportation",
-  image: "../assets/cylindrical street blocker.glb"
+  image: "https://files.cargocollective.com/c1851482/cylindrical-street-blocker.glb"
 },
 {name: "Slender Traffic Blocker",
   category: "transportation",
-  image: ""
+  image: "https://files.cargocollective.com/c1851482/slender-traffic-blocker.glb"
 },
 {name: "Fire Hydrant",
   category: "sanitation",
-  image: ""
+  image: "https://files.cargocollective.com/c1851482/fire-hydrant.glb"
 },
 {name: "citibike",
   category: "transportation",
-  image: ""
+  image: "https://files.cargocollective.com/c1851482/citibike.glb"
+},
+{name: "hand sanitizer",
+  category: "sanitation",
+  image: "https://files.cargocollective.com/c1851567/hand-sanitizer.glb"
 }
 ];
 
