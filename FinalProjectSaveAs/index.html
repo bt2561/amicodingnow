@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OBJECTS OF NYC</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <script nomodule="" src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+</head>
+<body>
+  <div class="container">
+    <!-- Filters -->
+    <nav>
+    <div class="filters">
+      <h2>filters</h2>
+      <button class="filter-btn" data-filter="transportation">transportation</button>
+      <button class="filter-btn" data-filter="communication">communication</button>
+      <button class="filter-btn" data-filter="sanitation">sanitation</button>
+      <button class="filter-btn" data-filter="construction">construction</button>
+      <button class="filter-btn" data-filter="consumption">consumption</button>
+      <button class="filter-btn active" data-filter="all">All</button>
+    </div>
+        </div>
+    <!-- Results -->
+    <div class="list">
+        
+      <h2>OBJECTS OF NYC</h2>
+      <ul>
+        <li class="card transportation">
+          <h3>MTA bus ticket machine</h3>
+          <model-viewer src="https://files.cargocollective.com/c1851482/mta-bus-ticket-machine.glb" auto-rotate="true" rotation-per-second="60deg" ar-status="not-presenting">
+          </model-viewer>
+          <li class="card transportation">
+            <h3>LIRR bus ticket machine</h3>
+            <model-viewer src="https://files.cargocollective.com/c483709/LIRR.glb" auto-rotate="true" rotation-per-second="60deg" ar-status="not-presenting">
+            </model-viewer> 
+            <li class="card transportation">
+              <h3>no thru traffic sign</h3>
+              <model-viewer src="https://files.cargocollective.com/c1851567/no-thru-traffic.glb" auto-rotate="true" rotation-per-second="60deg" ar-status="not-presenting">
+              </model-viewer>
+              <li class="card construction">
+                <h3>traffic barrier</h3>
+                <model-viewer src="https://files.cargocollective.com/c1851482/traffic-barrier.glb" auto-rotate="true" rotation-per-second="60deg" ar-status="not-presenting">
+                </model-viewer> 
+                <li class="card communication">
+                  <h3>mailbox</h3>
+                  <model-viewer src="https://files.cargocollective.com/c1851567/mailbox.glb" auto-rotate="true" rotation-per-second="60deg" ar-status="not-presenting">
+                  </model-viewer>
+                  <li class="card sanitation">
+                    <h3>wet floor sign</h3>
+                    <model-viewer src="https://files.cargocollective.com/c483709/WetSign-compressed-v2.glb" auto-rotate="true" rotation-per-second="60deg" ar-status="not-presenting">
+                    </model-viewer>
+                    <li class="card transportation">
+                      <h3>cylindrical street blocker</h3>
+                      <model-viewer src="https://files.cargocollective.com/c1851482/cylindrical-street-blocker.glb" auto-rotate="true" rotation-per-second="60deg" ar-status="not-presenting">
+                      </model-viewer>
+                      <li class="card transportation">
+                        <h3>slender traffic blocker</h3>
+                        <model-viewer src="https://files.cargocollective.com/c1851482/slender-traffic-blocker.glb" auto-rotate="true" rotation-per-second="60deg" ar-status="not-presenting">
+                        </model-viewer>
+                        <li class="card sanitation">
+                          <h3>fire hydrant</h3>
+                          <model-viewer src="https://files.cargocollective.com/c1851482/fire-hydrant.glb" auto-rotate="true" rotation-per-second="60deg" ar-status="not-presenting">
+                          </model-viewer>
+                          <li class="card transportation">
+                            <h3>citibike</h3>
+                            <model-viewer src="https://files.cargocollective.com/c1851482/citibike.glb" auto-rotate="true" rotation-per-second="60deg" ar-status="not-presenting">
+                            </model-viewer>
+                            <li class="card sanitation">
+                              <h3>hand sanitizer</h3>
+                              <model-viewer src="https://files.cargocollective.com/c1851567/hand-sanitizer.glb" auto-rotate="true" rotation-per-second="60deg" ar-status="not-presenting">
+                              </model-viewer>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <script src="main.js"></script>
+
+</body>
+
+
+</html>

@@ -4,44 +4,44 @@
 
 const flowers = [
   {
-    name: "MTA Bus Ticket Machine",
+    name: "MTA bus ticket machine",
     category: "transportation",
     image:
       "https://files.cargocollective.com/c1851482/mta-bus-ticket-machine.glb"
   },
   {
-    name: "LIRR Ticket Machine",
+    name: "LIRR ticket machine",
     category: "transportation",
     image: "https://files.cargocollective.com/c483709/LIRR.glb"
   },
   {
-    name: "No Thru Traffic Sign",
+    name: "no thru traffic sign",
     category: "transportation",
     image:"https://files.cargocollective.com/c1851567/no-thru-traffic.glb"
   },
   {
-    name: "Traffic Barrier",
+    name: "traffic barrier",
     category: "construction",
     image:"https://files.cargocollective.com/c1851482/traffic-barrier.glb"
   },
   {
-    name: "Mailbox",
+    name: "mailbox",
     category: "communication",
     image: "https://files.cargocollective.com/c1851567/mailbox.glb"
   },
-  {name: "Wet Floor Sign",
+  {name: "wet floor sign",
   category: "sanitation",
   image: "https://files.cargocollective.com/c483709/WetSign-compressed-v2.glb"
 },
-{name: "Cylindrical Street Blocker",
+{name: "cylindrical street blocker",
   category: "transportation",
   image: "https://files.cargocollective.com/c1851482/cylindrical-street-blocker.glb"
 },
-{name: "Slender Traffic Blocker",
+{name: "slender traffic blocker",
   category: "transportation",
   image: "https://files.cargocollective.com/c1851482/slender-traffic-blocker.glb"
 },
-{name: "Fire Hydrant",
+{name: "fire hydrant",
   category: "sanitation",
   image: "https://files.cargocollective.com/c1851482/fire-hydrant.glb"
 },

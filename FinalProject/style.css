@@ -9,7 +9,7 @@
     height: 100vh;
     width: 100%;
     font-family: Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 12px;
   }
   
   .filters,
@@ -28,7 +28,7 @@
   .filter-btn {
     color: white;
     background-color: #f15b31;
-    border-radius: 20px;
+    border-radius: 8px;
     width: 100px;
     height: 30px;
     text-align: center;
@@ -43,20 +43,23 @@
   
   ul {
     display: flex;
+    flex-direction: row;
     /*   flex-wrap: wrap; */
     justify-content: space-between;
   }
-  
-  li {
+
+  li.card {
     list-style-type: none;
     border: 2px solid #141414;
     padding: 10px;
     margin: 10px;
     width: 20%;
+    display: grid;
+  grid-gap: 20px;
   }
-  
+
   li:hover {
-    background: #B7E3E4;
+    background: #f15b31;
   }
   
   ul .card.hide {
@@ -68,16 +71,8 @@
     animation: fadeIn 0.5s ease;
   }
   
-  @keyframes fadeIn {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-  
-  img {
-    width: 100%;
-    height: 150px;
+  .card {
+    background-color: black;
+      color: white;
+      padding: 20px 20px 0px 20px;
   }

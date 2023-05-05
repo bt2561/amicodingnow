@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 50;
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100%;
+  font-family: Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.filters,
+.list {
+  /* background-color: #f15b31; */
+  padding: 20px;
+  /* display: flex; */
+  border: 2px solid #141414;
+  width: 100%;
+}
+
+.list {
+  height: 90vh;
+  
+  /* Define grid columns and rows */
+  display: grid;
+  grid-gap: 20px;
+  width: 100%;
+}
+
+.filter-btn {
+  color: white;
+  background-color: #f15b31;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  border: none;
+}
+
+.filter-btn.active {
+  color: #536079;
+  border-color: #B7E3E4;
+  background: #B7E3E4;
+}
+
+li {
+  list-style-type: none;
+  border: 2px solid #141414;
+  padding: 10px;
+  margin: 10px;
+  display: grid;
+  grid-gap: 20px;
+  width:fit-content;
+}
+
+li:hover {
+  background: #F56D48;
+}
+
+.card {
+  background-color: black;
+  color: white;
+  padding: 20px 20px 0px 20px;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* width: 20%; */
+}
