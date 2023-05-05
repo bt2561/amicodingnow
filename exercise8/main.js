@@ -1,5 +1,6 @@
 
-console.log('this works')
+document.addEventListener("DOMContentLoaded", function() {
+    console.log('this works')
 
 function sayHello() {
     console.log('Hi')
@@ -33,3 +34,4 @@ function switchToYellow() {
 grayButton.addEventListener("click", switchToGray);
 blueButton.addEventListener("click", switchToBlue);
 yellowButton.addEventListener("click", switchToYellow);
+});
