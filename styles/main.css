@@ -26,5 +26,21 @@ h2 {
 }
 
 img {
-    width: 25%;
+    width: 280px;
+}
+
+.image-cropper {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.rounded {
+  display: inline;
+  margin: auto;
+  margin-left: -20%;
+  height: 110%;
+  width: auto;
 }
